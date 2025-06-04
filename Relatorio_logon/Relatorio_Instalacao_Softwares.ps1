@@ -55,7 +55,7 @@ th { background-color: #f2f2f2; }
 </style>
 </head>
 <body>
-<img src="images.jpg" alt="Logo Geset" style="height: 80px; margin-bottom: 20px;">
+<img src="images.jpg" alt="Logo" style="height: 80px; margin-bottom: 20px;">
 <h1>Relatório de Instalações e Atualizações de Software - Últimos 7 dias</h1>
 <h3>Computador: $hostname</h3>
 <p><b>Total de eventos:</b> $total<br>

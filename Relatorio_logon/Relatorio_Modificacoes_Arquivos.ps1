@@ -48,7 +48,7 @@ th { background-color: #f2f2f2; }
 </style>
 </head>
 <body>
-<img src="images.jpg" alt="Logo Geset" style="height: 80px; margin-bottom: 20px;">
+<img src="images.jpg" alt="Logo" style="height: 80px; margin-bottom: 20px;">
 <h1>Relatório de Modificações/Exclusões de Arquivos - Últimos 7 dias</h1>
 <table>
 <tr><th>Data/Hora</th><th>Usuário</th><th>Objeto</th><th>Tipo</th><th>Ação</th></tr>

@@ -67,7 +67,7 @@ $summary = $logs | Group-Object Date | ForEach-Object {
 $htmlHeader = @"
 <html>
 <head>
-<title>Relatório RDP (últimos 7 dias) - Geset</title>
+<title>Relatório RDP (últimos 7 dias)</title>
 <style>
 body { font-family: Arial; margin: 20px; }
 h1 { color: #2a3f5f; }
@@ -79,8 +79,8 @@ th { background-color: #f2f2f2; }
 </style>
 </head>
 <body>
-<img src="images.jpg" alt="Logo Geset" style="height: 80px; margin-bottom: 20px;">
-<h1>Relatório de Sessões RDP - Últimos 7 dias - Geset</h1>
+<img src="images.jpg" alt="Logo" style="height: 80px; margin-bottom: 20px;">
+<h1>Relatório de Sessões RDP - Últimos 7 dias</h1>
 "@
 
 $labels = ($summary | ForEach-Object { "'$($_.Date)'" }) -join ","
